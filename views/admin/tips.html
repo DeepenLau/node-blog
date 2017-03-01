@@ -1,0 +1,11 @@
+{% if tips %}
+<div class="alert alert-{{ tips.type }} alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>{{ tips.type }}</strong> {{ tips.message }}
+</div>
+<script>
+  setTimeout(function () {
+    $('.alert').hide()
+  }, 3000)
+</script>
+{% endif %}
