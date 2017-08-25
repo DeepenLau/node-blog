@@ -1,11 +1,11 @@
 # A node-blog demo
 
 ``` bash
-
-npm i
+# install dependencies
+$ npm i
 
 # make sure mongodb has been installed
-npm run start
+$ npm run start
 
 ```
 
@@ -17,6 +17,6 @@ npm run start
 $ top
 
 # kill process
-kill <pid>
+$ kill <pid>
 ```
 
